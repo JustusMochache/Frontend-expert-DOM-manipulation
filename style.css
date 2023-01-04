@@ -15,3 +15,17 @@ nav {
     margin: 1em;
     overflow: auto;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(31, 53, 165, 0.22);
+    border: 3px solid rgba(43, 65, 143, 0.523);
+    text-align: center;
+    border-radius: 3px;
+  }
