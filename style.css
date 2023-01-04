@@ -5,3 +5,13 @@ nav {
     align-items: center;
 }
 
+
+.scrollable {
+    position: relative;
+    background-color: lightblue;
+    height: 70px;
+    padding: 10px;
+    border: 5px solid grey;
+    margin: 1em;
+    overflow: auto;
+}
