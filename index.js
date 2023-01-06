@@ -9,3 +9,5 @@ const allList = document.querySelectorAll('li')
 console.log(allList.forEach((li) => {
     console.log(li);
 }));
+
+
